@@ -1,422 +1,530 @@
 <!DOCTYPE html>
-<html lang="es">
+<html class="scroll-smooth" lang="es">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SQX30VL9CK"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-SQX30VL9CK');
-</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SQX30VL9CK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-SQX30VL9CK');
+  </script>
   <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-WJQKCFH4');</script>
-<!-- End Google Tag Manager -->
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Crecer Primera Infancia | Educación para el Futuro</title>
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800;900&display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
-<script id="tailwind-config">
-  tailwind.config = {
-    darkMode: "class",
-    theme: {
-      extend: {
-        colors: {
-          "tertiary-container": "#008562",
-          "outline": "#8d6f79",
-          "surface-bright": "#fff8f8",
-          "primary": "#b30069",
-          "surface": "#fff8f8",
-          "on-secondary-container": "#005c72",
-          "tertiary-fixed": "#60fcc6",
-          "on-tertiary-container": "#f5fff8",
-          "tertiary": "#00694d",
-          "primary-container": "#df0e84",
-          "secondary-fixed": "#b6ebff",
-          "outline-variant": "#e1bdc8",
-          "on-primary": "#ffffff",
-          "on-error": "#ffffff",
-          "surface-variant": "#f8dbe3",
-          "surface-container-lowest": "#ffffff",
-          "on-tertiary-fixed-variant": "#00513b",
-          "on-surface": "#27171d",
-          "inverse-on-surface": "#ffecf0",
-          "surface-dim": "#efd3db",
-          "secondary-fixed-dim": "#57d5fc",
-          "on-primary-fixed-variant": "#8d0051",
-          "on-surface-variant": "#594048",
-          "secondary": "#00677f",
-          "on-background": "#27171d",
-          "primary-fixed": "#ffd9e4",
-          "primary-fixed-dim": "#ffb0cc",
-          "on-primary-container": "#fffbff",
-          "on-secondary": "#ffffff",
-          "error": "#ba1a1a",
-          "surface-container-highest": "#f8dbe3",
-          "error-container": "#ffdad6",
-          "inverse-surface": "#3d2c31",
-          "on-secondary-fixed-variant": "#004e60",
-          "background": "#fff8f8",
-          "on-primary-fixed": "#3e0021",
-          "inverse-primary": "#ffb0cc",
-          "surface-container-low": "#fff0f3",
-          "on-tertiary": "#ffffff",
-          "surface-tint": "#b8006c",
-          "on-secondary-fixed": "#001f28",
-          "tertiary-fixed-dim": "#3adfab",
-          "surface-container": "#ffe8ee",
-          "on-tertiary-fixed": "#002116",
-          "surface-container-high": "#fee1e9",
-          "on-error-container": "#93000a",
-          "secondary-container": "#5ad8ff",
-          "yellow": "#FFC600",
-          "on-yellow": "#3d2c00"
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WJQKCFH4');</script>
+  <!-- End Google Tag Manager -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Crecer | Potenciando el futuro de la educación</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700;9..144,800;9..144,900&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "primary-fixed": "#ffd9e5",
+            "green-light": "#BFE9DD",
+            "tertiary-container": "#007958",
+            "on-error": "#ffffff",
+            "on-error-container": "#93000a",
+            "primary-fixed-dim": "#ffb0cf",
+            "on-surface": "#24190f",
+            "tertiary": "#005e44",
+            "ink-soft": "#4A3828",
+            "yellow-accent": "#E8920A",
+            "secondary": "#00677d",
+            "on-tertiary-fixed-variant": "#00513a",
+            "error-container": "#ffdad6",
+            "inverse-primary": "#ffb0cf",
+            "cream-deep": "#F0E6D4",
+            "magenta-light": "#F6CFE3",
+            "inverse-surface": "#3a2e22",
+            "surface-container-low": "#fff1e7",
+            "on-secondary-container": "#006075",
+            "outline-variant": "#dfbec9",
+            "on-primary-fixed-variant": "#8c0056",
+            "on-tertiary-container": "#9affd4",
+            "on-tertiary-fixed": "#002115",
+            "error": "#ba1a1a",
+            "surface-tint": "#b70071",
+            "on-primary-container": "#ffe5ec",
+            "surface-container-high": "#fae4d3",
+            "secondary-fixed": "#b3ebff",
+            "secondary-container": "#6eddfe",
+            "on-primary-fixed": "#3d0023",
+            "on-tertiary": "#ffffff",
+            "primary": "#a00063",
+            "outline": "#8b7079",
+            "on-primary": "#ffffff",
+            "on-secondary-fixed": "#001f27",
+            "surface-variant": "#f4dfcd",
+            "inverse-on-surface": "#ffeee0",
+            "on-surface-variant": "#584049",
+            "primary-container": "#c8177e",
+            "tertiary-fixed-dim": "#67dbae",
+            "cream-base": "#FBF6EE",
+            "surface-dim": "#ebd6c5",
+            "surface": "#fff8f5",
+            "surface-container": "#ffead9",
+            "on-secondary": "#ffffff",
+            "on-background": "#24190f",
+            "ink-muted": "#8A7868",
+            "background": "#fff8f5",
+            "surface-bright": "#fff8f5",
+            "surface-container-lowest": "#ffffff",
+            "on-secondary-fixed-variant": "#004e5f",
+            "surface-container-highest": "#f4dfcd",
+            "yellow-light": "#FBE0B0",
+            "secondary-fixed-dim": "#65d4f5",
+            "cyan-light": "#BFE9F2",
+            "tertiary-fixed": "#84f8c9"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "3xl": "1.5rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "container-max": "1152px",
+            "margin-desktop": "40px",
+            "unit": "4px",
+            "section-v-space": "96px",
+            "margin-mobile": "24px",
+            "gutter": "20px"
+          },
+          "fontFamily": {
+            "headline-lg": ["Fraunces"],
+            "label-md": ["Inter"],
+            "body-lg": ["Inter"],
+            "body-md": ["Inter"],
+            "headline-md": ["Fraunces"],
+            "label-sm": ["Inter"],
+            "headline-xl-mobile": ["Fraunces"],
+            "headline-lg-mobile": ["Fraunces"],
+            "headline-sm": ["Fraunces"],
+            "headline-xl": ["Fraunces"]
+          },
+          "fontSize": {
+            "headline-lg": ["40px", {"lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": "900"}],
+            "label-md": ["14px", {"lineHeight": "1.2", "fontWeight": "600"}],
+            "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+            "body-md": ["16px", {"lineHeight": "1.5", "fontWeight": "400"}],
+            "headline-md": ["32px", {"lineHeight": "1.3", "fontWeight": "800"}],
+            "label-sm": ["12px", {"lineHeight": "1.1", "letterSpacing": "0.05em", "fontWeight": "700"}],
+            "headline-xl-mobile": ["42px", {"lineHeight": "1.1", "fontWeight": "900"}],
+            "headline-lg-mobile": ["30px", {"lineHeight": "1.2", "fontWeight": "900"}],
+            "headline-sm": ["24px", {"lineHeight": "1.4", "fontWeight": "700"}],
+            "headline-xl": ["54px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "900"}]
+          }
         },
-        borderRadius: {
-          "DEFAULT": "0.25rem",
-          "lg": "0.5rem",
-          "xl": "0.75rem",
-          "full": "9999px"
-        },
-        spacing: {
-          "md": "24px",
-          "xl": "80px",
-          "xs": "4px",
-          "margin": "32px",
-          "sm": "12px",
-          "base": "8px",
-          "container-max": "1280px",
-          "gutter": "24px",
-          "lg": "48px"
-        },
-        fontFamily: {
-          "label-md": ["Nunito Sans"],
-          "headline-xl": ["Nunito Sans"],
-          "headline-sm": ["Nunito Sans"],
-          "headline-lg-mobile": ["Nunito Sans"],
-          "body-sm": ["Nunito Sans"],
-          "headline-lg": ["Nunito Sans"],
-          "headline-xl-mobile": ["Nunito Sans"],
-          "body-md": ["Nunito Sans"],
-          "headline-md": ["Nunito Sans"],
-          "body-lg": ["Nunito Sans"]
-        },
-        fontSize: {
-          "label-md": ["14px", {"lineHeight": "1", "letterSpacing": "0.05em", "fontWeight": "700"}],
-          "headline-xl": ["48px", {"lineHeight": "1.2", "letterSpacing": "-0.02em", "fontWeight": "800"}],
-          "headline-sm": ["20px", {"lineHeight": "1.4", "fontWeight": "700"}],
-          "headline-lg-mobile": ["28px", {"lineHeight": "1.25", "fontWeight": "800"}],
-          "body-sm": ["14px", {"lineHeight": "1.5", "fontWeight": "400"}],
-          "headline-lg": ["32px", {"lineHeight": "1.25", "letterSpacing": "-0.01em", "fontWeight": "800"}],
-          "headline-xl-mobile": ["36px", {"lineHeight": "1.2", "fontWeight": "800"}],
-          "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
-          "headline-md": ["24px", {"lineHeight": "1.3", "fontWeight": "800"}],
-          "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "600"}]
-        }
-      }
+      },
     }
-  }
-</script>
-<style>
-  body { font-family: 'Nunito Sans', sans-serif; }
-  .material-symbols-outlined {
-    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-  }
-  .active-scale:active { transform: scale(0.95); transition: transform 0.2s; }
-  .ambient-shadow { box-shadow: 0 10px 30px -5px rgba(26, 26, 46, 0.08); }
-  .hover-lift:hover { transform: translateY(-4px); box-shadow: 0 20px 40px -10px rgba(26, 26, 46, 0.12); transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
-  .bg-pattern {
-    background-image: radial-gradient(circle at 2px 2px, rgba(179, 0, 105, 0.05) 1px, transparent 0);
-    background-size: 24px 24px;
-  }
-</style>
+  </script>
+  <style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+    .hover-lift {
+      transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+    .hover-lift:hover {
+      transform: translateY(-8px);
+    }
+    .pill-shadow-magenta {
+      box-shadow: 0 20px 25px -5px rgba(160, 0, 99, 0.25);
+    }
+    .blur-nav {
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+  </style>
 </head>
-<body class="bg-surface text-on-surface">
+<body class="bg-cream-base text-on-surface font-body-md selection:bg-primary-fixed selection:text-primary">
   <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WJQKCFH4"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-<!-- TopAppBar -->
-<header class="fixed top-0 w-full z-50 shadow-sm bg-surface">
-  <nav class="flex items-center justify-between px-margin max-w-container-max mx-auto h-xl">
-    <div class="flex items-center gap-base">
-      <img alt="Crecer Primera Infancia" class="h-16 object-contain" src="static/logo_crecer.png"/>
-    </div>
-    <div class="hidden md:flex items-center gap-lg">
-      <a class="font-body-md text-body-md text-primary border-b-2 border-primary transition-colors" href="#">Inicio</a>
-      <a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#servicios">Programas</a>
-      <a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#nosotros">Nosotros</a>
-      <a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#contacto">Contacto</a>
-    </div>
-    <div class="flex items-center gap-md">
-      <span class="material-symbols-outlined text-primary cursor-pointer active-scale hidden md:block">account_circle</span>
-      <button aria-label="Abrir Menú" class="md:hidden text-primary active-scale" id="menu-toggle">
-        <span class="material-symbols-outlined text-[32px]">menu</span>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WJQKCFH4"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <!-- Top Navigation -->
+  <nav class="sticky top-0 z-50 bg-cream-base/90 blur-nav shadow-sm">
+    <div class="flex justify-between items-center max-w-7xl mx-auto px-margin-desktop py-4">
+      <div class="flex items-center gap-3">
+        <img alt="Crecer" class="h-10 object-contain" src="static/logo_crecer.png" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+        <div class="font-headline-md text-headline-md font-black text-primary" style="display:none">Crecer</div>
+      </div>
+      <div class="hidden md:flex items-center gap-8">
+        <a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="#ecosistema">Ecosistema</a>
+        <a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="#beneficios">Beneficios</a>
+        <a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="#como-funciona">Cómo funciona</a>
+        <a href="mailto:mercadeo@crecer.edu.co" class="bg-primary text-on-primary font-label-md text-label-md px-6 py-3 rounded-full hover:opacity-80 transition-all duration-300 active:scale-95 pill-shadow-magenta">
+          Solicitar Demo
+        </a>
+      </div>
+      <button class="md:hidden text-primary" id="menu-toggle">
+        <span class="material-symbols-outlined">menu</span>
       </button>
     </div>
+    <!-- Mobile Menu -->
+    <div class="hidden md:hidden bg-cream-base border-t border-ink-soft/10 px-margin-desktop py-4 space-y-3" id="mobile-menu">
+      <a class="block font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors py-2" href="#ecosistema">Ecosistema</a>
+      <a class="block font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors py-2" href="#beneficios">Beneficios</a>
+      <a class="block font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors py-2" href="#como-funciona">Cómo funciona</a>
+      <a href="mailto:mercadeo@crecer.edu.co" class="block text-center bg-primary text-on-primary font-label-md text-label-md px-6 py-3 rounded-full pill-shadow-magenta">
+        Solicitar Demo
+      </a>
+    </div>
   </nav>
-</header>
 
-<!-- Navigation Drawer (mobile) -->
-<div class="fixed inset-0 bg-black/40 z-[55] hidden transition-opacity" id="drawer-overlay"></div>
-<aside class="fixed left-0 top-0 h-full w-80 bg-surface z-[60] py-md shadow-xl rounded-r-xl -translate-x-full transition-transform duration-300" id="nav-drawer">
-  <div class="px-margin mb-lg flex justify-between items-center">
-    <span class="font-headline-sm text-headline-sm font-black text-primary">Menú Principal</span>
-    <button class="text-on-surface-variant" id="close-drawer">
-      <span class="material-symbols-outlined">close</span>
-    </button>
-  </div>
-  <nav class="flex flex-col gap-2">
-    <a class="bg-primary-container text-on-primary-container rounded-full mx-2 px-4 py-3 flex items-center gap-4" href="#">
-      <span class="material-symbols-outlined">home</span>
-      <span class="font-body-lg text-body-lg">Inicio</span>
-    </a>
-    <a class="text-on-surface-variant hover:bg-surface-container-high rounded-full mx-2 px-4 py-3 flex items-center gap-4 transition-colors" href="#servicios">
-      <span class="material-symbols-outlined">school</span>
-      <span class="font-body-lg text-body-lg">Programas</span>
-    </a>
-    <a class="text-on-surface-variant hover:bg-surface-container-high rounded-full mx-2 px-4 py-3 flex items-center gap-4 transition-colors" href="#nosotros">
-      <span class="material-symbols-outlined">groups</span>
-      <span class="font-body-lg text-body-lg">Nosotros</span>
-    </a>
-    <a class="text-on-surface-variant hover:bg-surface-container-high rounded-full mx-2 px-4 py-3 flex items-center gap-4 transition-colors" href="#contacto">
-      <span class="material-symbols-outlined">mail</span>
-      <span class="font-body-lg text-body-lg">Contacto</span>
-    </a>
-  </nav>
-</aside>
-
-<main class="pt-xl">
-
-  <!-- Hero -->
-  <section class="relative min-h-[80vh] flex items-center px-margin max-w-container-max mx-auto py-xl">
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-xl items-center w-full">
-      <div class="space-y-md">
-        <h1 class="font-headline-xl text-headline-xl-mobile md:text-headline-xl text-on-surface">
-          Habilidades para <span class="text-primary">ser grandes</span>
+  <!-- Hero Section -->
+  <section class="relative pt-20 pb-section-v-space overflow-hidden">
+    <div class="max-w-7xl mx-auto px-margin-desktop grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div class="z-10">
+        <span class="inline-block px-4 py-1.5 rounded-full bg-magenta-light text-primary font-label-sm text-label-sm mb-6">
+          SaaS EDUCATIVO B2B
+        </span>
+        <h1 class="font-headline-xl text-headline-xl-mobile lg:text-headline-xl text-on-surface mb-6">
+          Impulsa el crecimiento docente y mejora la calidad educativa desde una sola plataforma.
         </h1>
-        <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
-          Somos una empresa educativa colombiana con más de 15 años formando niños y transformando instituciones.
+        <p class="font-body-lg text-body-lg text-ink-soft mb-10 max-w-lg">
+          Evalúa, acompaña y desarrolla a tus docentes con herramientas diseñadas para generar mejora continua basada en evidencia.
         </p>
-        <div class="flex flex-col sm:flex-row flex-wrap gap-md pt-base">
-          <a href="https://crecerplus.com" target="_blank" class="px-lg py-md bg-primary text-on-primary rounded-xl font-bold active-scale ambient-shadow hover:opacity-90 transition-all text-center">
-            Conocer CrecerPlus
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href="mailto:mercadeo@crecer.edu.co" class="text-center bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded-full hover:opacity-90 transition-all pill-shadow-magenta">
+            Solicitar demostración
           </a>
-          <a href="https://steamacademy.edu.co" target="_blank" class="px-lg py-md bg-secondary-container text-on-secondary-container rounded-xl font-bold active-scale ambient-shadow hover:opacity-90 transition-all text-center">
-            Steam Academy
+          <a href="#como-funciona" class="text-center border-2 border-secondary text-secondary font-label-md text-label-md px-8 py-4 rounded-full hover:bg-secondary/5 transition-all">
+            Ver cómo funciona
           </a>
         </div>
       </div>
-      <div class="relative rounded-2xl overflow-hidden ambient-shadow h-[400px] md:h-[500px]">
-        <img alt="Niños aprendiendo" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBGqboLq-nUTKH4g5AHrEkKhgTf5IueSjgFdXZVA-ynbkqQEP0PKBF4HjXpfUUglRaN4BmhZAG3MtdQctFFMP9KKppjf1HIPj0kyFj57Hal9ueXCcfgn8mGRifwMUHZqPU94f8opWCQlbTnVBVdGrUi5ad81i0xUpmvDnQdiYTF8vMNAjGW87nYGmm-vrV_MfwFCAl-KYa9grwUfF_RkJ2NREvlTYS7pwoMqSRBZtNjPiEf5LsyEnuz1SRAC53K2OlVs5bQ1deFnhM"/>
-      </div>
-    </div>
-  </section>
-
-  <!-- Nuestra Esencia -->
-  <section id="nosotros" class="bg-surface-container-low py-xl px-margin">
-    <div class="max-w-container-max mx-auto grid grid-cols-1 md:grid-cols-2 gap-xl items-center">
-      <div class="space-y-md">
-        <span class="text-primary font-bold tracking-widest text-label-md block">NUESTRA ESENCIA</span>
-        <h2 class="font-headline-lg text-headline-lg text-on-surface">Quiénes Somos</h2>
-        <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-          Desde 2010, Crecer Primera Infancia desarrolla modelos pedagógicos para preescolar y primaria basados en jugar, estudiar y aprender. Creemos que cada niño posee una curiosidad natural que debe ser alimentada con herramientas modernas y acompañamiento experto.
-        </p>
-      </div>
-      <div class="grid grid-cols-1 sm:grid-cols-3 gap-md">
-        <div class="bg-surface p-md rounded-xl ambient-shadow text-center space-y-xs">
-          <span class="block font-headline-md text-headline-md text-primary">15+</span>
-          <span class="block font-label-md text-label-md text-on-surface-variant">Años de Exp.</span>
-        </div>
-        <div class="bg-surface p-md rounded-xl ambient-shadow text-center space-y-xs">
-          <span class="block font-headline-md text-headline-md text-secondary">6</span>
-          <span class="block font-label-md text-label-md text-on-surface-variant">Instituciones</span>
-        </div>
-        <div class="bg-surface p-md rounded-xl ambient-shadow text-center space-y-xs">
-          <span class="block font-headline-md text-headline-md text-tertiary">4</span>
-          <span class="block font-label-md text-label-md text-on-surface-variant">Expertos</span>
+      <div class="relative lg:h-[600px] flex items-center justify-center">
+        <div class="absolute -top-10 -right-10 w-64 h-64 bg-cyan-light/30 rounded-full blur-3xl"></div>
+        <div class="absolute -bottom-10 -left-10 w-64 h-64 bg-magenta-light/30 rounded-full blur-3xl"></div>
+        <div class="relative w-full rounded-3xl overflow-hidden shadow-2xl border border-ink-soft/5 hover-lift">
+          <img alt="Crecer Dashboard Interface" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDyawvYQvMkdecez666u-e0yIp2RhNHFhg0ecZY4ZE9QpDAusISKyLZr_tzdq8GxDObPqezzJxTId2U_XY_ur9SKVHrT2RjXGfMOnwOYpBhmTj7R4uIrpVWrr41xx2-Q6fCLCnpyszGh0t7bT9Cu4d6dXsmqVqittjbIWnfcFpD93DeNhFvwfSMPTI8B2Ey79NCkRGfuS1xriefwv6Wj2hdo9No_ZTtB2RTRXHZALb3HZPcG3fZXvSQEmTKEtjWpckPd-UWO2RqrhUr">
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Nuestros Programas -->
-  <section id="servicios" class="py-xl px-margin bg-pattern">
-    <div class="max-w-container-max mx-auto">
-      <div class="text-center mb-xl">
-        <h2 class="font-headline-lg text-headline-lg text-on-surface">Nuestros Programas</h2>
+  <!-- Ecosystem Section (Bento Grid) -->
+  <section class="py-section-v-space bg-surface" id="ecosistema">
+    <div class="max-w-7xl mx-auto px-margin-desktop">
+      <div class="text-center mb-16">
+        <h2 class="font-headline-lg text-headline-lg-mobile lg:text-headline-lg text-on-surface mb-4">Un ecosistema integral para el éxito académico</h2>
+        <p class="font-body-lg text-body-lg text-ink-muted max-w-2xl mx-auto">Tres herramientas potentes, un solo objetivo: el desarrollo continuo de tu equipo docente.</p>
       </div>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-lg">
-
-        <!-- Card 1: Metodología Crecer -->
-        <div class="bg-surface rounded-xl ambient-shadow hover-lift overflow-hidden flex flex-col border-t-4 p-lg" style="border-color: #FFC600;">
-          <div class="mb-md">
-            <span class="material-symbols-outlined text-5xl" style="color: #b38600;">auto_stories</span>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+        <!-- Product 1: CrecerPlus -->
+        <div class="bg-surface-container-lowest p-10 rounded-3xl border border-ink-soft/5 hover-lift group">
+          <div class="w-16 h-16 rounded-2xl bg-magenta-light flex items-center justify-center mb-8 transition-transform group-hover:scale-110">
+            <span class="material-symbols-outlined text-primary" style="font-size: 32px;">auto_awesome</span>
           </div>
-          <div class="inline-block px-3 py-1 rounded-full text-xs font-bold mb-sm w-fit" style="background-color: #fff3cc; color: #b38600;">
-            METODOLOGÍA PROPIA
-          </div>
-          <h3 class="font-headline-md text-headline-md mb-sm" style="color: #b38600;">Metodología Crecer</h3>
-          <p class="font-body-md text-body-md text-on-surface-variant mb-md flex-grow">
-            Modelo pedagógico propio basado en tres pilares: Jugar, Estudiar y Aprender.
-          </p>
-          <div class="grid grid-cols-3 gap-sm mb-lg">
-            <div class="text-center p-sm rounded-xl" style="background-color: #fff3cc;">
-              <div class="text-2xl mb-xs">🎮</div>
-              <div class="font-bold text-xs" style="color: #b38600;">Jugar</div>
-            </div>
-            <div class="text-center p-sm rounded-xl" style="background-color: #fff3cc;">
-              <div class="text-2xl mb-xs">📚</div>
-              <div class="font-bold text-xs" style="color: #b38600;">Estudiar</div>
-            </div>
-            <div class="text-center p-sm rounded-xl" style="background-color: #fff3cc;">
-              <div class="text-2xl mb-xs">💡</div>
-              <div class="font-bold text-xs" style="color: #b38600;">Aprender</div>
-            </div>
-          </div>
-          <button class="w-full py-md rounded-xl font-bold active-scale transition-opacity text-white" style="background-color: #FFC600; color: #3d2c00;">
-            Conocer la Metodología
-          </button>
+          <h3 class="font-headline-sm text-headline-sm text-primary mb-4">CrecerPlus</h3>
+          <p class="font-body-md text-body-md text-ink-soft mb-8">Gestión avanzada de la evaluación y el acompañamiento pedagógico en el aula.</p>
+          <ul class="space-y-3">
+            <li class="flex items-center gap-3 text-label-md">
+              <span class="material-symbols-outlined text-primary" style="font-size: 20px;">check_circle</span>
+              Observación de aula
+            </li>
+            <li class="flex items-center gap-3 text-label-md">
+              <span class="material-symbols-outlined text-primary" style="font-size: 20px;">check_circle</span>
+              Rúbricas personalizadas
+            </li>
+            <li class="flex items-center gap-3 text-label-md">
+              <span class="material-symbols-outlined text-primary" style="font-size: 20px;">check_circle</span>
+              Retroalimentación efectiva
+            </li>
+          </ul>
         </div>
-
-        <!-- Card 2: CrecerPlus -->
-        <div class="bg-surface rounded-xl ambient-shadow hover-lift overflow-hidden flex flex-col border-t-4 border-primary p-lg">
-          <div class="mb-md">
-            <span class="material-symbols-outlined text-primary text-5xl">auto_awesome</span>
+        <!-- Product 2: CrecerProfes -->
+        <div class="bg-surface-container-lowest p-10 rounded-3xl border border-ink-soft/5 hover-lift group">
+          <div class="w-16 h-16 rounded-2xl bg-cyan-light flex items-center justify-center mb-8 transition-transform group-hover:scale-110">
+            <span class="material-symbols-outlined text-secondary" style="font-size: 32px;">auto_stories</span>
           </div>
-          <div class="inline-block bg-primary-fixed px-3 py-1 rounded-full text-xs font-bold text-primary mb-sm w-fit">
-            PLATAFORMA SAAS
-          </div>
-          <h3 class="font-headline-md text-headline-md text-on-surface mb-sm">CrecerPlus</h3>
-          <p class="font-body-md text-body-md text-on-surface-variant mb-lg flex-grow">
-            Plataforma integral de evaluación docente y seguimiento del desarrollo infantil, diseñada para optimizar procesos pedagógicos en jardines y colegios.
-          </p>
-          <a href="https://crecerplus.com" target="_blank" class="w-full py-md border-2 border-primary text-primary font-bold rounded-xl active-scale hover:bg-primary hover:text-on-primary transition-all text-center">
-            Ir a CrecerPlus
-          </a>
+          <h3 class="font-headline-sm text-headline-sm text-secondary mb-4">CrecerProfes</h3>
+          <p class="font-body-md text-body-md text-ink-soft mb-8">El centro de recursos y formación continua para el empoderamiento docente.</p>
+          <ul class="space-y-3">
+            <li class="flex items-center gap-3 text-label-md">
+              <span class="material-symbols-outlined text-secondary" style="font-size: 20px;">auto_stories</span>
+              Planes de clase
+            </li>
+            <li class="flex items-center gap-3 text-label-md">
+              <span class="material-symbols-outlined text-secondary" style="font-size: 20px;">auto_stories</span>
+              Capacitación continua
+            </li>
+            <li class="flex items-center gap-3 text-label-md">
+              <span class="material-symbols-outlined text-secondary" style="font-size: 20px;">auto_stories</span>
+              Desarrollo personalizado
+            </li>
+          </ul>
         </div>
-
-        <!-- Card 3: Steam Academy -->
-        <div class="bg-surface rounded-xl ambient-shadow hover-lift overflow-hidden flex flex-col border-t-4 border-secondary p-lg">
-          <div class="mb-md">
-            <span class="material-symbols-outlined text-secondary text-5xl">smart_toy</span>
+        <!-- Product 3: Analítica -->
+        <div class="bg-surface-container-lowest p-10 rounded-3xl border border-ink-soft/5 hover-lift group">
+          <div class="w-16 h-16 rounded-2xl bg-green-light flex items-center justify-center mb-8 transition-transform group-hover:scale-110">
+            <span class="material-symbols-outlined text-tertiary" style="font-size: 32px;">insights</span>
           </div>
-          <div class="inline-block bg-secondary-fixed px-3 py-1 rounded-full text-xs font-bold text-secondary mb-sm w-fit">
-            CLUB DE ROBÓTICA
-          </div>
-          <h3 class="font-headline-md text-headline-md text-on-surface mb-sm">Steam Academy</h3>
-          <p class="font-body-md text-body-md text-on-surface-variant mb-lg flex-grow">
-            Club de robótica y programación para niños de 4 a 16 años. LEGO, Arduino, Micro:bit y más. Norte de Bogotá.
-          </p>
-          <a href="https://steamacademy.edu.co" target="_blank" class="w-full py-md border-2 border-secondary text-secondary font-bold rounded-xl active-scale hover:bg-secondary hover:text-on-secondary transition-all text-center">
-            Conocer Steam Academy
-          </a>
+          <h3 class="font-headline-sm text-headline-sm text-tertiary mb-4">Analítica</h3>
+          <p class="font-body-md text-body-md text-ink-soft mb-8">Toma decisiones estratégicas basadas en datos institucionales precisos.</p>
+          <ul class="space-y-3">
+            <li class="flex items-center gap-3 text-label-md">
+              <span class="material-symbols-outlined text-tertiary" style="font-size: 20px;">insights</span>
+              Indicadores de gestión
+            </li>
+            <li class="flex items-center gap-3 text-label-md">
+              <span class="material-symbols-outlined text-tertiary" style="font-size: 20px;">insights</span>
+              Seguimiento docente
+            </li>
+            <li class="flex items-center gap-3 text-label-md">
+              <span class="material-symbols-outlined text-tertiary" style="font-size: 20px;">insights</span>
+              Evidencia Institucional
+            </li>
+          </ul>
         </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- Problem/Solution Section -->
+  <section class="py-section-v-space bg-cream-base">
+    <div class="max-w-7xl mx-auto px-margin-desktop">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div>
+          <h2 class="font-headline-lg text-headline-lg-mobile lg:text-headline-lg text-on-surface mb-8">De procesos fragmentados a una gestión basada en evidencia.</h2>
+          <div class="space-y-8">
+            <div class="flex gap-6 p-6 rounded-2xl bg-error-container/20 border border-error/10">
+              <span class="material-symbols-outlined text-error" style="font-size: 32px;">cancel</span>
+              <div>
+                <h4 class="font-label-md text-label-md text-on-error-container mb-1">Sin Crecer</h4>
+                <p class="font-body-md text-body-md text-ink-soft">Observaciones en papel, datos dispersos en excels, falta de retroalimentación oportuna y decisiones basadas en percepciones.</p>
+              </div>
+            </div>
+            <div class="flex gap-6 p-6 rounded-2xl bg-tertiary-fixed/20 border border-tertiary/10">
+              <span class="material-symbols-outlined text-tertiary" style="font-size: 32px;">check_circle</span>
+              <div>
+                <h4 class="font-label-md text-label-md text-tertiary mb-1">Con Crecer</h4>
+                <p class="font-body-md text-body-md text-ink-soft">Información centralizada, seguimiento en tiempo real, planes de mejora automáticos y cultura de evidencia compartida.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-surface-container-high rounded-3xl p-12 relative">
+          <div class="absolute inset-0 bg-gradient-to-tr from-magenta-light/20 to-cyan-light/20 rounded-3xl"></div>
+          <div class="relative z-10 space-y-6">
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-ink-soft/5">
+              <div class="flex justify-between items-center mb-4">
+                <span class="font-label-sm text-label-sm text-ink-muted">REPORTE INSTITUCIONAL</span>
+                <span class="px-3 py-1 rounded-full bg-green-light text-tertiary font-label-sm">+18% Mejora</span>
+              </div>
+              <div class="h-2 w-full bg-cream-deep rounded-full overflow-hidden">
+                <div class="h-full bg-primary w-[75%]"></div>
+              </div>
+              <p class="mt-3 font-label-md text-label-md">Nivel de desempeño docente promedio</p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-ink-soft/5 ml-8">
+              <p class="font-headline-sm text-headline-sm text-primary mb-1">94%</p>
+              <p class="font-label-sm text-label-sm text-ink-muted">Participación en programas de formación</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it Works -->
+  <section class="py-section-v-space bg-surface" id="como-funciona">
+    <div class="max-w-7xl mx-auto px-margin-desktop text-center">
+      <h2 class="font-headline-lg text-headline-lg-mobile lg:text-headline-lg text-on-surface mb-16">Metodología para el impacto educativo</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-12 relative">
+        <div class="hidden md:block absolute top-1/2 left-[20%] right-[20%] h-0.5 bg-ink-soft/10 -translate-y-12"></div>
+        <div class="relative z-10 group">
+          <div class="w-20 h-20 rounded-full bg-magenta-light text-primary flex items-center justify-center mx-auto mb-6 text-headline-sm font-bold shadow-lg transition-transform group-hover:scale-110">1</div>
+          <h3 class="font-headline-sm text-headline-sm mb-4">Evaluar</h3>
+          <p class="text-ink-muted max-w-[250px] mx-auto">Registra observaciones y realiza diagnósticos con herramientas digitales intuitivas.</p>
+        </div>
+        <div class="relative z-10 group">
+          <div class="w-20 h-20 rounded-full bg-cyan-light text-secondary flex items-center justify-center mx-auto mb-6 text-headline-sm font-bold shadow-lg transition-transform group-hover:scale-110">2</div>
+          <h3 class="font-headline-sm text-headline-sm mb-4">Analizar</h3>
+          <p class="text-ink-muted max-w-[250px] mx-auto">Convierte datos brutos en indicadores claros de fortalezas y áreas de oportunidad.</p>
+        </div>
+        <div class="relative z-10 group">
+          <div class="w-20 h-20 rounded-full bg-green-light text-tertiary flex items-center justify-center mx-auto mb-6 text-headline-sm font-bold shadow-lg transition-transform group-hover:scale-110">3</div>
+          <h3 class="font-headline-sm text-headline-sm mb-4">Desarrollar</h3>
+          <p class="text-ink-muted max-w-[250px] mx-auto">Implementa planes de acción personalizados para el crecimiento profesional continuo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits Grid -->
+  <section class="py-section-v-space bg-cream-base" id="beneficios">
+    <div class="max-w-7xl mx-auto px-margin-desktop">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+        <h2 class="font-headline-lg text-headline-lg-mobile lg:text-headline-lg">Beneficios diseñados para líderes académicos</h2>
+        <div class="flex items-end">
+          <p class="font-body-lg text-body-lg text-ink-muted">Transformamos la gestión de talento en las instituciones más exigentes de Latinoamérica.</p>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+        <div class="p-8 bg-surface-container rounded-3xl border border-ink-soft/5">
+          <span class="material-symbols-outlined text-primary mb-4" style="font-size: 40px;">psychology</span>
+          <h4 class="font-headline-sm text-headline-sm mb-3">Identifica Oportunidades</h4>
+          <p class="text-ink-soft">Mapea con precisión qué habilidades necesitan ser reforzadas en cada área o departamento.</p>
+        </div>
+        <div class="p-8 bg-surface-container rounded-3xl border border-ink-soft/5">
+          <span class="material-symbols-outlined text-secondary mb-4" style="font-size: 40px;">add_box</span>
+          <h4 class="font-headline-sm text-headline-sm mb-3">Estandariza Procesos</h4>
+          <p class="text-ink-soft">Asegura que cada evaluación se realice bajo los mismos criterios y niveles de calidad institucional.</p>
+        </div>
+        <div class="p-8 bg-surface-container rounded-3xl border border-ink-soft/5">
+          <span class="material-symbols-outlined text-tertiary mb-4" style="font-size: 40px;">support_agent</span>
+          <h4 class="font-headline-sm text-headline-sm mb-3">Fortalece el Acompañamiento</h4>
+          <p class="text-ink-soft">Convierte la supervisión en una conversación de crecimiento profesional genuino.</p>
+        </div>
+        <div class="p-8 bg-surface-container rounded-3xl border border-ink-soft/5">
+          <span class="material-symbols-outlined text-primary mb-4" style="font-size: 40px;">verified_user</span>
+          <h4 class="font-headline-sm text-headline-sm mb-3">Evidencia Confiable</h4>
+          <p class="text-ink-soft">Respalda tus decisiones con datos históricos y trazabilidad completa de cada proceso docente.</p>
+        </div>
+        <div class="p-8 bg-surface-container rounded-3xl border border-ink-soft/5">
+          <span class="material-symbols-outlined text-secondary mb-4" style="font-size: 40px;">person_search</span>
+          <h4 class="font-headline-sm text-headline-sm mb-3">Planes de Desarrollo</h4>
+          <p class="text-ink-soft">Genera rutas de aprendizaje adaptadas al perfil único de cada profesor.</p>
+        </div>
+        <div class="p-8 bg-surface-container rounded-3xl border border-ink-soft/5">
+          <span class="material-symbols-outlined text-tertiary mb-4" style="font-size: 40px;">rocket_launch</span>
+          <h4 class="font-headline-sm text-headline-sm mb-3">Resultados Visibles</h4>
+          <p class="text-ink-soft">Observa el impacto real de las capacitaciones en el desempeño directo dentro del aula.</p>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Confían en nosotros -->
-  <section class="py-xl px-margin bg-surface-container-lowest">
-    <div class="max-w-container-max mx-auto text-center">
-      <h2 class="font-headline-sm text-headline-sm text-on-surface-variant mb-xl">Confían en nosotros</h2>
-      <div class="flex flex-wrap justify-center items-center gap-xl">
-        <img alt="Gimnasio Las Villas" class="h-24 object-contain grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100 cursor-pointer" src="static/logos/gimnasio-las-villas.png"/>
-        <img alt="Gimnasio Antares" class="h-24 object-contain grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100 cursor-pointer" src="static/logos/gimnasio-antares.png"/>
-        <img alt="Hocus Pocus" class="h-24 object-contain grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100 cursor-pointer" src="static/logos/hocus-pocus.png"/>
-        <img alt="Jardín Las Villas" class="h-24 object-contain grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100 cursor-pointer" src="static/logos/jardin-las-villas.png"/>
-        <img alt="Edukids" class="h-24 object-contain grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100 cursor-pointer" src="static/logos/edukids.jpg"/>
-        <img alt="Lombardia" class="h-24 object-contain grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100 cursor-pointer" src="static/logos/lombardia.jpg"/>
+  <section class="py-section-v-space bg-surface">
+    <div class="max-w-7xl mx-auto px-margin-desktop text-center">
+      <p class="font-label-sm text-label-sm text-ink-muted mb-12 tracking-widest">CONFÍAN EN NOSOTROS</p>
+      <div class="flex flex-wrap justify-center items-center gap-12">
+        <img alt="Gimnasio Las Villas" class="h-16 object-contain grayscale hover:grayscale-0 transition-all opacity-50 hover:opacity-100" src="static/logos/gimnasio-las-villas.png">
+        <img alt="Gimnasio Antares" class="h-16 object-contain grayscale hover:grayscale-0 transition-all opacity-50 hover:opacity-100" src="static/logos/gimnasio-antares.png">
+        <img alt="Hocus Pocus" class="h-16 object-contain grayscale hover:grayscale-0 transition-all opacity-50 hover:opacity-100" src="static/logos/hocus-pocus.png">
+        <img alt="Jardín Las Villas" class="h-16 object-contain grayscale hover:grayscale-0 transition-all opacity-50 hover:opacity-100" src="static/logos/jardin-las-villas.png">
+        <img alt="Edukids" class="h-16 object-contain grayscale hover:grayscale-0 transition-all opacity-50 hover:opacity-100" src="static/logos/edukids.jpg">
+        <img alt="Lombardia" class="h-16 object-contain grayscale hover:grayscale-0 transition-all opacity-50 hover:opacity-100" src="static/logos/lombardia.jpg">
       </div>
     </div>
   </section>
 
-  <!-- Contacto CTA -->
-  <section id="contacto" class="py-xl px-margin">
-    <div class="max-w-container-max mx-auto bg-primary rounded-2xl p-xl text-center md:text-left md:flex md:items-center md:justify-between ambient-shadow">
-      <div class="mb-lg md:mb-0">
-        <h2 class="font-headline-lg text-headline-lg text-on-primary">¿Quieres hacer parte de Crecer?</h2>
-        <p class="font-body-md text-body-md text-primary-fixed mt-sm">Únete a nuestra red de instituciones y transforma la educación.</p>
-        <a class="block mt-sm font-bold text-primary-fixed hover:underline" href="mailto:mercadeo@crecer.edu.co">mercadeo@crecer.edu.co</a>
-      </div>
-      <a href="mailto:mercadeo@crecer.edu.co" class="px-xl py-md bg-surface text-primary font-bold rounded-xl active-scale hover:shadow-lg transition-all inline-block">
-        Escríbenos
+  <!-- Final CTA Section -->
+  <section class="py-section-v-space bg-cream-base relative overflow-hidden">
+    <div class="absolute top-0 right-0 w-1/3 h-full bg-primary/5 rounded-l-[200px] z-0"></div>
+    <div class="max-w-5xl mx-auto px-margin-desktop text-center relative z-10">
+      <h2 class="font-headline-xl text-headline-xl-mobile lg:text-headline-xl text-on-surface mb-8">
+        Transforma la evaluación docente en crecimiento profesional.
+      </h2>
+      <p class="font-body-lg text-body-lg text-ink-muted mb-12 max-w-2xl mx-auto">
+        Únete a los colegios que ya están liderando la innovación pedagógica con Crecer. Tu equipo merece herramientas de clase mundial.
+      </p>
+      <a href="mailto:mercadeo@crecer.edu.co" class="inline-block bg-primary text-on-primary font-label-md text-label-md px-12 py-5 rounded-full hover:scale-105 transition-all shadow-2xl pill-shadow-magenta">
+        Solicitar demostración gratuita
       </a>
+      <p class="mt-6 text-label-sm text-ink-muted">Sin compromiso • Configuración en 24 horas • Soporte premium</p>
     </div>
   </section>
 
-</main>
-
-<!-- Footer -->
-<footer class="w-full pt-lg pb-md bg-surface-container-highest border-t border-outline-variant mt-xl">
-  <div class="flex flex-col md:flex-row justify-between items-center px-margin max-w-container-max mx-auto gap-md">
-    <div class="flex flex-col items-center md:items-start gap-xs">
-      <span class="font-headline-sm text-headline-sm text-primary font-extrabold">Crecer Primera Infancia</span>
-      <p class="font-body-sm text-body-sm text-on-surface-variant">© 2025 Crecer Primera Infancia · Bogotá, Colombia</p>
+  <!-- Footer -->
+  <footer class="bg-surface-container-low border-t border-ink-soft/10">
+    <div class="max-w-7xl mx-auto px-margin-desktop py-section-v-space">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-gutter">
+        <div class="md:col-span-1">
+          <div class="font-headline-sm text-headline-sm font-bold text-primary mb-6">Crecer</div>
+          <p class="text-ink-muted text-body-md pr-4">Potenciando el futuro de la educación mediante tecnología diseñada para humanos.</p>
+        </div>
+        <div>
+          <h5 class="font-label-md text-label-md mb-6">Plataforma</h5>
+          <ul class="space-y-4">
+            <li><a class="text-ink-muted hover:text-primary transition-all hover:translate-x-1 inline-block" href="#ecosistema">Ecosistema</a></li>
+            <li><a class="text-ink-muted hover:text-primary transition-all hover:translate-x-1 inline-block" href="#beneficios">Beneficios</a></li>
+            <li><a class="text-ink-muted hover:text-primary transition-all hover:translate-x-1 inline-block" href="#como-funciona">Cómo funciona</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5 class="font-label-md text-label-md mb-6">Compañía</h5>
+          <ul class="space-y-4">
+            <li><a class="text-ink-muted hover:text-primary transition-all hover:translate-x-1 inline-block" href="https://crecerplus.com" target="_blank">CrecerPlus</a></li>
+            <li><a class="text-ink-muted hover:text-primary transition-all hover:translate-x-1 inline-block" href="https://steamacademy.edu.co" target="_blank">Steam Academy</a></li>
+            <li><a class="text-ink-muted hover:text-primary transition-all hover:translate-x-1 inline-block" href="mailto:mercadeo@crecer.edu.co">Contacto</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5 class="font-label-md text-label-md mb-6">Legal</h5>
+          <ul class="space-y-4">
+            <li><a class="text-ink-muted hover:text-primary transition-all hover:translate-x-1 inline-block" href="#">Privacidad</a></li>
+            <li><a class="text-ink-muted hover:text-primary transition-all hover:translate-x-1 inline-block" href="#">Términos</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="mt-20 pt-8 border-t border-ink-soft/10 flex flex-col md:flex-row justify-between items-center gap-6">
+        <p class="font-label-sm text-label-sm text-ink-muted">© 2025 Crecer. Potenciando el futuro de la educación · Bogotá, Colombia</p>
+        <div class="flex gap-6">
+          <a class="text-ink-muted hover:text-primary transition-colors" href="mailto:mercadeo@crecer.edu.co">
+            <span class="material-symbols-outlined">mail</span>
+          </a>
+          <a class="text-ink-muted hover:text-primary transition-colors" href="https://crecer.edu.co" target="_blank">
+            <span class="material-symbols-outlined">public</span>
+          </a>
+        </div>
+      </div>
     </div>
-    <div class="flex gap-md">
-      <a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-all underline decoration-primary" href="#">Privacidad</a>
-      <a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-all underline decoration-primary" href="#">Términos</a>
-      <a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-all underline decoration-primary" href="mailto:mercadeo@crecer.edu.co">Contacto</a>
-      <a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-all underline decoration-primary flex items-center gap-xs" href="https://crecer.edu.co" target="_blank">
-        <span class="material-symbols-outlined text-sm">language</span>crecer.edu.co
-      </a>
-    </div>
-  </div>
-</footer>
+  </footer>
 
-<!-- FAB WhatsApp -->
-<a href="https://wa.me/573155449949" target="_blank" rel="noopener"
-   style="position:fixed;bottom:24px;left:24px;z-index:999;background:#25D366;color:white;width:56px;height:56px;border-radius:9999px;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(37,211,102,0.4);transition:transform 0.2s"
-   onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
-  <svg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 24 24' fill='white'>
-    <path d='M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z'/>
-    <path d='M12 0C5.373 0 0 5.373 0 12c0 2.124.558 4.17 1.535 5.943L.057 23.5l5.733-1.498A11.95 11.95 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.885 0-3.65-.51-5.17-1.395l-.371-.22-3.4.888.913-3.32-.242-.382A9.938 9.938 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z'/>
-  </svg>
-</a>
+  <!-- FAB WhatsApp -->
+  <a href="https://wa.me/573155449949" target="_blank" rel="noopener"
+     style="position:fixed;bottom:24px;left:24px;z-index:999;background:#25D366;color:white;width:56px;height:56px;border-radius:9999px;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(37,211,102,0.4);transition:transform 0.2s"
+     onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+    <svg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 24 24' fill='white'>
+      <path d='M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z'/>
+      <path d='M12 0C5.373 0 0 5.373 0 12c0 2.124.558 4.17 1.535 5.943L.057 23.5l5.733-1.498A11.95 11.95 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.885 0-3.65-.51-5.17-1.395l-.371-.22-3.4.888.913-3.32-.242-.382A9.938 9.938 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z'/>
+    </svg>
+  </a>
 
-<script>
-  const menuToggle = document.getElementById('menu-toggle');
-  const closeDrawer = document.getElementById('close-drawer');
-  const navDrawer = document.getElementById('nav-drawer');
-  const drawerOverlay = document.getElementById('drawer-overlay');
-
-  function toggleMenu() {
-    navDrawer.classList.toggle('-translate-x-full');
-    drawerOverlay.classList.toggle('hidden');
-    document.body.style.overflow = navDrawer.classList.contains('-translate-x-full') ? 'auto' : 'hidden';
-  }
-
-  menuToggle.addEventListener('click', toggleMenu);
-  closeDrawer.addEventListener('click', toggleMenu);
-  drawerOverlay.addEventListener('click', toggleMenu);
-
-  document.querySelectorAll('img[alt^="Logo"]').forEach(logo => {
-    logo.addEventListener('mouseenter', () => { logo.style.transform = 'scale(1.05)'; });
-    logo.addEventListener('mouseleave', () => { logo.style.transform = 'scale(1)'; });
-  });
-
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('opacity-100', 'translate-y-0');
-        entry.target.classList.remove('opacity-0', 'translate-y-10');
-      }
+  <script>
+    // Mobile menu toggle
+    const menuToggle = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+    menuToggle.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
     });
-  }, { threshold: 0.1 });
 
-  document.querySelectorAll('section').forEach(section => {
-    section.classList.add('transition-all', 'duration-700', 'opacity-0', 'translate-y-10');
-    observer.observe(section);
-  });
-</script>
+    // Close mobile menu on link click
+    mobileMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => mobileMenu.classList.add('hidden'));
+    });
+
+    // Scroll reveal
+    document.addEventListener('DOMContentLoaded', () => {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('opacity-100', 'translate-y-0');
+            entry.target.classList.remove('opacity-0', 'translate-y-10');
+          }
+        });
+      }, { threshold: 0.1 });
+
+      document.querySelectorAll('section > div').forEach(el => {
+        el.classList.add('transition-all', 'duration-700', 'opacity-0', 'translate-y-10');
+        observer.observe(el);
+      });
+    });
+  </script>
 </body>
 </html>
